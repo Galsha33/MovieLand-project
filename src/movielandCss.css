@@ -1,0 +1,89 @@
+.r1{ /*Header*/
+    position: relative;
+    height: 70vh; 
+    background-image: url(../headerBackground.jpg);
+    text-align: center;
+}
+.r2{ /*Body and SideBar*/
+    height: 80vh;
+}
+.r3{ /*Footer*/
+    height: 10vh;
+}
+.s{ /*Screen*/
+    width: 98vw;
+   height: 160vh;
+}
+.logo{
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    font-size: 175px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(233, 18, 18);
+    text-shadow: 8px 8px 8px #000;
+
+}
+.filter{
+    position: absolute;
+    top:62vh;
+    left: 85%;
+}
+.filter-label{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: white;
+    text-shadow: 3px 3px 3px #000;
+}
+.add{
+    position: absolute;
+    top:65vh;
+    right: 92%;
+}
+.categorie{
+    position: relative;
+    height: 7vh;
+    width: 15.5vw;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    z-index: 2;
+}
+.td{
+    border: 7px solid rgb(88, 84, 84);
+    text-align: center;
+    vertical-align: middle;
+    height: 7vh;
+}
+.tr{
+    width:100%;
+}
+.span{
+    position: relative;
+    z-index: 1;
+    height: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-weight: 100;
+    padding: 5px;
+   
+}
+.pageNavBar{
+    position: absolute;
+    top:64.5vh;
+    left: 73%;
+}
+.form-in{
+    width:12vw;
+
+}
+.form-f{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: min-content;
+    margin-left: 37.5%;
+    margin-top: 3%;
+    padding: 30px;
+
+}
